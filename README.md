@@ -2,7 +2,7 @@
 
 /employees - List of all employees
 
-/employees/signup - Sign up a new employee
+/employees/add - Add a new employee
 
 /employees/login - Login
 

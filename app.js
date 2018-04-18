@@ -5,6 +5,8 @@ const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const sassMiddleware = require('node-sass-middleware');
+const knexConfig = require('./knexfile');
+process.knex = require('knex')(knexConfig[process.env.NODE_ENV]);
 
 const index = require('./routes/index');
 const employees = require('./routes/employees');

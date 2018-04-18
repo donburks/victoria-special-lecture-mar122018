@@ -31,3 +31,6 @@ npm-debug.log
 
 #Don't commit sqlite3 files
 *.sqlite3
+
+#Vim files
+.*.swp
