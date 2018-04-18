@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employees</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Employees</h1>
+    <section class="employees">
+    <% emps.map(employee => { %>
+      <article class="employee">
+        <header><%= employee.name %> (<em><%= employee.email %></em>) </header>
+        <main>
+          <img src="<%= employee.animal %>" alt="Spirit Animal" />
+        </main>
+        <footer>
+          <button>&times; Delete</button> 
+        </footer>
+      </article>
+    <% }); %>
+    </section>
+  </body>
+</html>

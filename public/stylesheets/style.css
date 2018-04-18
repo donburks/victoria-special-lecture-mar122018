@@ -1,0 +1,24 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+.employees article {
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 20px; }
+  .employees article em {
+    color: rebeccapurple;
+    text-decoration: none; }
+  .employees article img {
+    max-width: 150px; }
+  .employees article footer button {
+    background-color: tomato;
+    padding: 8px 4px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid red;
+    border-radius: 4px; }
+
+/*# sourceMappingURL=style.css.map */

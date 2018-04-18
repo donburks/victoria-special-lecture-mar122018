@@ -1,0 +1,35 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.employees {
+  article {
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 20px;
+
+    em {
+      color: rebeccapurple;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 150px;
+    }
+
+    footer {
+      button {
+        background-color: tomato;
+        padding: 8px 4px;
+        color: white;
+        font-weight: bold;
+        border: 2px solid red;
+        border-radius: 4px;
+      }
+    }
+  }
+}
